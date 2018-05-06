@@ -1,4 +1,4 @@
 
 steps:
   - name: ":python:"
-    command: "docker version"
+    command: "id"
