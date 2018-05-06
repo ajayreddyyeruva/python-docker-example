@@ -1,4 +1,5 @@
-
 steps:
   - name: ":python:"
-    command: "id"
+    command: "py.test"
+    env:
+      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
