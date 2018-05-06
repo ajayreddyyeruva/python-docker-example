@@ -1,6 +1,6 @@
 
 steps:
   - name: ":python:"
-    command: "docker-compose up -d"
+    command: "py.test"
     env:
       BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
