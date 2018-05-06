@@ -2,5 +2,3 @@
 steps:
   - name: ":python:"
     command: "docker version"
-    env:
-      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
